@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Online MCQ App</title>
+<style>
+	h1{font-style:italic;font-weight:bolder;font-size:80px;}
+	body{background-image:url('img1.jpg');background-repeat:no-repeat;background-size: cover;background-attachment: fixed;}
+	td{color:black;text-align:center;font-weight:bolder;}
+	input{border-radius:10px;font-weight:bolder;}
+	#a1{color:yellow;background:black;border-radius:10px;text-align:center;}
+	#a1:hover{color:blue;background:black;}
+	#a2{color:yellow;background:black;border-radius:10px;text-align:center;}
+	#a2:hover{color:blue;background:black;}
+</style>
+</head>
+<body>
+<h1 align=center>Online MCQ App</h1>
+<table align=center>
+<form action="loginaction.jsp">
+		<tr><td>Enter Email Address</td><td><input type=text name=email placeholder="Registered Email" required></td></tr>
+		<tr><td>Enter Password</td><td><input type=password name=pass required></td></tr>
+		<tr><th colspan=2><input id=a1 type=submit value=Login></th></tr> 
+</form>
+		<tr><th colspan=2>OR</th></tr>
+<form action="register.html">
+    	<tr><th colspan=2><input id=a2 type=submit value=SignUP></th></tr>
+</form>
+</table>  
+</body>
+</html>
